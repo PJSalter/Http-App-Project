@@ -2,6 +2,8 @@
 
 ## Designed and Developed by [Peter](https://github.com/PJSalter) and [Bereket](https://github.com/Bereketmebrahtu)
 
+## [live site](https://pjsalter.github.io/Http-App-Project/) ✨
+
 # User Stories
 
 ### As a user, I want to:
