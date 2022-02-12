@@ -10,6 +10,7 @@
 }
 
 body{
+    box-sizing: border-box;
     background-color: var(--clr-three);
 }
 
@@ -18,3 +19,40 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.form-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+#message-box{
+    height:auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    align-items: center;
+    justify-content: center;
+    color: var(--text);
+    background-color: var(--clr-four);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center{
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.width-sm{
+    max-width: 20rem;
+}
+.width-lg{
+    max-width: 40rem;
+}
+.width-xl{
+    max-width: 60rem;
+}
