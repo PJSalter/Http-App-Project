@@ -1,3 +1,20 @@
 /* ---------------- styling for App --------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap'); */
+
+:root {
+    --text: #F5E034;
+    --clr-two: #1E8762;
+    --clr-three: #27578b;
+    --clr-four: #C689BD;
+}
+
+body{
+    background-color: var(--clr-three);
+}
+
+.title{
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
