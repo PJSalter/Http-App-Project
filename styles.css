@@ -1,3 +1,61 @@
 /* ---------------- styling for App --------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap'); */
+
+:root {
+    --text: #F5E034;
+    --clr-two: #1E8762;
+    --clr-three: #27578b;
+    --clr-four: #C689BD;
+}
+
+body{
+    box-sizing: border-box;
+    background-image: url("big-bang-image/space.png");
+    background-color: var(--clr-three);
+    font-family: 'Bungee Inline', cursive;
+}
+
+.title{
+    color: var(--text);
+    text-align:center;
+    justify-content: center;
+}
+
+.form-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+#message-box{
+    height:auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    align-items: center;
+    justify-content: center;
+    color: var(--text);
+    background-color: var(--clr-four);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center{
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.width-sm{
+    max-width: 20rem;
+}
+.width-lg{
+    max-width: 40rem;
+}
+.width-xl{
+    max-width: 60rem;
+}
