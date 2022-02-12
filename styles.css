@@ -11,6 +11,7 @@
 
 body{
     box-sizing: border-box;
+    background-image: url("big-bang-image/space.png");
     background-color: var(--clr-three);
     font-family: 'Bungee Inline', cursive;
 }
