@@ -60,6 +60,12 @@ body{
     max-width: 60rem;
 }
 
+/* voice over effect */
+
+#sheldonVoice{
+    display: none;
+}
+
 /* styling for space craft animation movement and route */
 
 .space-ship-wrap {
