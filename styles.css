@@ -60,14 +60,19 @@ body{
     max-width: 60rem;
 }
 
+/* styling for space craft animation movement and route */
+
 .space-ship-wrap {
     margin: 100px;
 }
 
 .orbit-route {
-    height: 200px;
-    width: 400px;
-    border: 3px dotted var(--clr-two);
+    height: 50rem;
+    width: 100%;
+    padding-top: 50%;
+    text-align: center;
+    justify-content: center;
+    border: 10px dotted var(--clr-two);
     position: relative;
 }
 
@@ -75,7 +80,59 @@ body{
     position: absolute;
     right: 0;
     bottom: 0;
+    width: 100%;
+    height: auto;
     transform: translate(50%, 50%);
-    animation: travelRoundTheBorder 10s linear infinite;
+    animation: travelAtLightSpeed 10s linear infinite;
 }
+
+@keyframes travelAtLightSpeed {
+    30% {
+      bottom: 0;
+      right: 100%;
+      transform: translate(50%, 50%);
+    }
+    
+    32.5% {
+      bottom: 0;
+      right: 100%;
+      transform: translate(50%, 50%) rotate(90deg);
+    }
+    
+    47.5% {
+      right: 100%;
+      bottom: 100%;
+      transform: translate(50%, 50%) rotate(90deg);
+    }
+
+    50% {
+        right: 100%;
+        bottom: 100%;
+        transform: translate(50%, 50%) rotate(180deg);
+      }
+      
+      80% {
+        right: 0;
+        bottom: 100%;
+        transform: translate(50%, 50%) rotate(180deg);
+      }
+      
+      82.5% {
+        right: 0;
+        bottom: 100%;
+        transform: translate(50%, 50%) rotate(270deg);
+      }
+      
+      97.5% {
+        right: 0;
+        bottom: 0;
+        transform: translate(50%, 50%) rotate(270deg);
+      }
+      
+      100% {
+        right: 0;
+        bottom: 0;
+        transform: translate(50%, 50%) rotate(360deg);
+      }
+    }
 
