@@ -59,3 +59,23 @@ body{
 .width-xl{
     max-width: 60rem;
 }
+
+.space-ship-wrap {
+    margin: 100px;
+}
+
+.orbit-route {
+    height: 200px;
+    width: 400px;
+    border: 3px dotted var(--clr-two);
+    position: relative;
+}
+
+.space-craft {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(50%, 50%);
+    animation: travelRoundTheBorder 10s linear infinite;
+}
+
