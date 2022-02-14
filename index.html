@@ -7,19 +7,28 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="#" />
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
     <title>http-app-project</title>
 </head>
 <body>
+<main>
 
 <section class="title">
         
     <h1>Sheldonia</h1>
     
-    </section>
+</section>
 
-<section>
-<div class="form-container center">
+<!-- wrap container for space ship effect -->
+<section class="space-ship-wrap">
+<!-- The route class attribute for the space ship -->
+<div class="orbit-route">
+        <!-- image for the space craft aka millenium Falcon -->
+        <img class="space-craft" src="big-bang-image/millenium-Falcon.png" alt="space-ship">
+
+    <div class="form-container center">
+
         <div class="input">
         <label for="bigbang-input"></label>
         <input type="search" id="message-box" name="bigbang-input">
@@ -30,10 +39,13 @@
         </form>
 
         
-        <button class ="button" type="button">Button</button>
+        <button class="button" type="button">Button</button>
+    </div>
+
 </div>
 </section>
-
+   <audio id="sheldonVoice" src="big-bang-image/Frosty-Sun.mp3" preload="auto"></audio>
+</main>
     <script src="app.js"></script>
 </body>
 </html>

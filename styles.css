@@ -59,3 +59,118 @@ body{
 .width-xl{
     max-width: 60rem;
 }
+
+/* voice over effect */
+
+#sheldonVoice{
+    display: none;
+}
+
+/* styling for space craft animation movement and route */
+
+.space-ship-wrap {
+  /*  margin: 100px; */
+  margin: 0px;
+}
+
+.orbit-route {
+    height: 50rem;
+   /* width: 100%; */
+    padding-top: 50%;
+    padding: 10%;
+    text-align: center;
+    justify-content: center;
+    border: 10px dotted var(--clr-two);
+    position: relative;
+}
+
+.space-craft {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    transform: translate(50%, 50%);
+    animation: travelAtLightSpeed 10s linear infinite;
+}
+
+@keyframes travelAtLightSpeed {
+    30% {
+      bottom: 0;
+      right: 100%;
+      transform: translate(50%, 50%);
+    }
+    
+    32.5% {
+      bottom: 0;
+      right: 100%;
+      transform: translate(50%, 50%) rotate(90deg);
+    }
+    
+    47.5% {
+      right: 100%;
+      bottom: 100%;
+      transform: translate(50%, 50%) rotate(90deg);
+    }
+
+    50% {
+        right: 100%;
+        bottom: 100%;
+        transform: translate(50%, 50%) rotate(180deg);
+      }
+      
+      80% {
+        right: 0;
+        bottom: 100%;
+        transform: translate(50%, 50%) rotate(180deg);
+      }
+      
+      82.5% {
+        right: 0;
+        bottom: 100%;
+        transform: translate(50%, 50%) rotate(270deg);
+      }
+      
+      97.5% {
+        right: 0;
+        bottom: 0;
+        transform: translate(50%, 50%) rotate(270deg);
+      }
+      
+      100% {
+        right: 0;
+        bottom: 0;
+        transform: translate(50%, 50%) rotate(360deg);
+      }
+    }
+
+    @media screen and (max-width: 2560px){
+        .orbit-route{
+          height: 40rem;
+         /* width: 80%; */
+          margin: 10%;
+          padding-top: 20%;
+        }
+        .space-craft {
+            width: 43%;
+        }
+    }
+
+    @media screen and (max-width: 1024px){
+        .space-craft {
+            width: 40%;
+        }
+    }
+
+    @media screen and (max-width: 320px){
+
+        /*
+        .space-ship-wrap{
+            margin: 50px;
+        } */
+        #message-box{
+            width: 100%;
+        }
+
+    }
+
