@@ -12,7 +12,6 @@
     <title>http-app-project</title>
 </head>
 <body>
-<main>
 
 <section class="title">
         
@@ -27,25 +26,24 @@
         <!-- image for the space craft aka millenium Falcon -->
         <img class="space-craft" src="big-bang-image/millenium-Falcon.png" alt="space-ship">
 
-    <div class="form-container center">
+    <form class="form-container center">
 
-        <div class="input">
         <label for="bigbang-input"></label>
         <input type="search" id="message-box" name="bigbang-input">
-        </div>
+       <!-- <textarea name="textarea" id="message-box"></textarea> -->
+       <button class="button" type="submit">Submit</button>
 
-        <form>
-        <textarea name="textarea" id="message-box"></textarea>
         </form>
-
+        <!-- Container where movies will appear from TMDB API -->
+        <main></main>
         
-        <button class="button" type="button">Button</button>
+       <!-- <button class="button" type="submit">Submit</button> -->
     </div>
 
 </div>
+
 </section>
    <audio id="sheldonVoice" src="big-bang-image/Frosty-Sun.mp3" preload="auto"></audio>
-</main>
     <script src="app.js"></script>
 </body>
 </html>
