@@ -128,34 +128,17 @@ main{
     margin-right: auto;
 }
 
-/*
-.width-sm{
-    max-width: 20rem;
-}
-.width-lg{
-    max-width: 40rem;
-}
-.width-xl{
-    max-width: 60rem;
-}
-
-*/
-
-/* voice over effect */
-
-#sheldonVoice{
-    display: none;
-}
-
 /* styling for button */
 .clickBtn {
     width: fit-content;
     margin-top: 5rem;
     padding: 1rem;
     font-size: 3rem;
+    background-color: var(--clr-two);
     margin-left: auto;
     margin-right: auto;
-    animation: pulse 3s infinite;
+    font-family: 'Bungee Inline';
+    color: var(--text);
   }
   
   .clickBtn:hover {
