@@ -87,15 +87,15 @@ main{
 }
 
 .movie-info span.green{
-    color:lightgreen;
+    color: var(--clr-two);
 }
 
 .movie-info span.orange{
-    color:orange;
+    color: var(--text);
 }
 
 .movie-info span.red{
-    color:red;
+    color:var(--clr-four);
 }
 
 
@@ -146,6 +146,21 @@ main{
 #sheldonVoice{
     display: none;
 }
+
+/* styling for button */
+.clickBtn {
+    width: fit-content;
+    margin-top: 5rem;
+    padding: 1rem;
+    font-size: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    animation: pulse 3s infinite;
+  }
+  
+  .clickBtn:hover {
+    background-color: var(--clr-three);
+  }
 
 /* styling for space craft animation movement and route */
 
