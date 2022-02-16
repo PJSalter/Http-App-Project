@@ -1,16 +1,20 @@
 /* --------------------- js fetch api will go here -------------------------*/
 
 const voiceAudio = document.getElementById("sheldonVoice");
+const commenceVoiceActivate = document.querySelector(".clickBtn");
 
-/*
-function instantNotify() {
-    voiceAudio.play(); // this function will instantly play the voice.
-}
+commenceVoiceActivate.addEventListener("click", function () {
+   
+    if(!voiceAudio.paused) { /* Check if it's not paused */
+    voiceAudio.pause();  /* To pause the audio */
+    voiceAudio.currentTime = 0;  /* To reset the time back to 0 */
+    }
+    else {
+        voiceAudio.play();  /* To make it play again */
+    }
 
-*/
-
-document.body.addEventListener("mousemove", function () {
-    voiceAudio.play();
+    // display nothing in styling once voice plays.
+    voiceAudio.style.display = none;
 })
 
 //---------------------------------------------------------------//
