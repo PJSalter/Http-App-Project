@@ -179,6 +179,13 @@ body{
     animation: travelAtLightSpeed 10s linear infinite;
 }
 
+
+.output {
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 @keyframes travelAtLightSpeed {
     30% {
       bottom: 0;
