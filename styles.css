@@ -123,11 +123,6 @@ body{
 }
 */
 
-.output{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 .center{
     max-width: 30rem;
     margin-left: auto;
@@ -179,12 +174,20 @@ body{
     animation: travelAtLightSpeed 10s linear infinite;
 }
 
-
+/* gif styling */
 .output {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 30rem;
     margin-left: auto;
     margin-right: auto;
+    max-width: fit-content;
 
+}
+figure img{
+    width: 100%;
+    height: auto;
 }
 @keyframes travelAtLightSpeed {
     30% {
@@ -238,7 +241,7 @@ body{
 
     @media screen and (max-width: 2560px){
         .orbit-route{
-          height: 40rem;
+          height: 50rem;
          /* width: 80%; */
           margin: 10%;
           padding-top: 20%;
@@ -254,7 +257,11 @@ body{
         }
     }
 
-
+    @media screen and (max-width: 789px){
+        .output{
+            width: 20rem;
+        }
+    }
     
     @media screen and (max-width: 320px){
 
@@ -268,6 +275,9 @@ body{
 
         .movie-info{
             padding: 0;
+        }
+        .output{
+            width: 10rem;
         }
 
     }
