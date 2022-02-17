@@ -127,7 +127,7 @@ const scifiProcess = data => {
 //eventListener added 
 async function giphysearch() {
   
-    let url = `http://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&limit=1&q=`;
+    let url = `https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&limit=1&q=`;
     let str = document.getElementById("message-box").value.trim();
     url = url.concat(str);
     let response = await fetch(url);
