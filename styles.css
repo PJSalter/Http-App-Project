@@ -39,7 +39,7 @@ body{
     font-size: 1rem;
 }
 
-main{
+#content-display{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -122,6 +122,12 @@ main{
     font-size: 1rem;
 }
 */
+
+.output{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .center{
     max-width: 30rem;
     margin-left: auto;
