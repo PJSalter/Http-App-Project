@@ -18,6 +18,7 @@ commenceVoiceActivate.addEventListener("click", function () {
 })
 
 //api key from GHIPY 
+
 let API_KEY = "yTk65md4VUpLFHxJvS6bqFOcT31mDqFg";
 
 /* Function to generate random number for different APIs */
@@ -178,23 +179,17 @@ form.addEventListener('submit', (e) => {
 
 
 /*
-
 button.addEventListener('keydown', (e) => {
     // prevents form from refreshing when user clicks submit button
     e.preventDefault();
-
-
     const searchTerm = search.value;
-
     if(searchTerm) {
         pickSciFiMovie(searchURL+'&query='+searchTerm)
     } else {
         pickSciFiMovie(pickUp_URL);
     }
-
     console.log(giphysearch(e));
 })
-
 */
 
 
@@ -213,14 +208,12 @@ button.addEventListener('keydown', (e) => {
           moviePromise(newEstimate)
       }, 5000);
   })
-
   const PromiseTimeTwo = new Promise((githyPromise) => {
     setTimeout(() =>{
         const newEstimate = Math.floor(Math.random() * 20);
         githyPromise(newEstimate)
     }, 8000);
 })
-
 */
 
 const fetchAsyncData = async (search) => {
