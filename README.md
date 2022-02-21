@@ -1,5 +1,9 @@
 # Http-App-Project - Sheldonia :collision: :rocket:
 
+## Designed and Developed by [Peter](https://github.com/PJSalter) and [Bereket](https://github.com/Bereketmebrahtu)
+
+## [Click here for live site](https://pjsalter.github.io/Http-App-Project/) ✨
+
 > 'A long time ago in a galaxy far, far away…'
 
 – Opening Credits, A New Hope, 1977.
@@ -17,10 +21,6 @@ As a group we planned the project collectively and picked themes that related to
 We chose a font that was consistent which was a reminder of Star Wars intro font with root colour yellow.
 
 ![star-wars-intro](/big-bang-image/star-wars-intro.jpg)
-
-## Designed and Developed by [Peter](https://github.com/PJSalter) and [Bereket](https://github.com/Bereketmebrahtu)
-
-## [live site](https://pjsalter.github.io/Http-App-Project/) ✨
 
 # User Stories
 
@@ -60,5 +60,13 @@ We chose a font that was consistent which was a reminder of Star Wars intro font
 ##### *Is good documentation available?*
 
 ![MilleniumFalcon](/big-bang-image/starWars.gif)
+
+# Screenshots of the project:
+<img width="488" alt="Screenshot-of-project" src="https://user-images.githubusercontent.com/45575016/155035959-8c84e9f5-8b07-49ef-8aec-ae7d5cf706c1.png">
+<img width="1430" alt="screenshot-project" src="https://user-images.githubusercontent.com/45575016/155035985-7c665231-4325-4209-b865-cfce22b26ddf.png">
+
+
+
+
 
 
