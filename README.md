@@ -32,11 +32,11 @@
 
 ### Acceptance Criteria:
 
-- [ ] Query at least two APIs using fetch.
-- [ ] Dynamic content generated with JS.
-- [ ] A clearly defined user journey, documented in your readme.
-- [ ] A responsive, mobile-first design.
-- [ ] Ensure your app is accessible to as many different users as possible.
+- [x] Query at least two APIs using fetch.
+- [x] Dynamic content generated with JS.
+- [x] A clearly defined user journey, documented in your readme.
+- [x] A responsive, mobile-first design.
+- [x] Ensure your app is accessible to as many different users as possible.
 
 # Planning:
 #### During the planning phase we suggest you spend time on:
