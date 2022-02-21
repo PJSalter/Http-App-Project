@@ -1,4 +1,17 @@
-# Http-App-Project
+# Http-App-Project - Sheldonia :collision: :rocket:
+
+> 'A long time ago in a galaxy far, far away…'
+
+– Opening Credits, A New Hope, 1977.
+
+## Planned Diagram of project:
+
+![plan-drawing](/big-bang-image/initial-plan-drawing.png)
+
+## Initial theme ideas:
+
+![Sheldon-Big-Bang-Theory](/big-bang-image/sheldon.gif)
+![MilleniumFalcon](/big-bang-image/starWars.gif)
 
 ## Designed and Developed by [Peter](https://github.com/PJSalter) and [Bereket](https://github.com/Bereketmebrahtu)
 
